@@ -9,7 +9,7 @@ class Plog100Player extends Player
   protected $opponentSide;
   protected $result;
   
-  public fonction getChoice()
+  public function getChoice()
   {
     if ($this->result->getNbRound() == 1)
     {
