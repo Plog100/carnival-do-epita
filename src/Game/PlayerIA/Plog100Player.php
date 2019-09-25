@@ -51,6 +51,15 @@ class Plog100Player extends Player
     {
       return parent::paperChoice();
     }
+    if ($this->result->getNbRound() % 3 == 0)
+    {
+      return parent::scissorsChoice();
+    }
+    if ($this->result->getNbRound() % 2 == 0)
+    {
+      return parent::paperChoice();
+    }
+      
     else
     {
       return parent::rockChoice();
