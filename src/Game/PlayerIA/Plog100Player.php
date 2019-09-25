@@ -11,7 +11,7 @@ class Plog100Player extends Player
   
   public function getChoice()
   {
-    if ($this->result->getNbRound() == 1)
+    /*if ($this->result->getNbRound() == 1)
     {
       return parent::paperChoice();
     }
@@ -63,6 +63,7 @@ class Plog100Player extends Player
     else
     {
       return parent::rockChoice();
-    }
+    }*/
+    return parent::paperChoice();
  }
 };
